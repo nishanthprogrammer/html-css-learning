@@ -23,6 +23,7 @@ body {
   padding: 20px;
   margin-top: 10px;
   border-radius: 20px;
+  width: 100%;
 }
 
 .header h1 {
