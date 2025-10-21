@@ -1,0 +1,212 @@
+/* 🌐 Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 🧍 Body */
+body {
+  background-color: #0d1117; /* Dark theme */
+  color: #f0f6fc;
+  line-height: 1.6;
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* 🧭 Header Section */
+.header {
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
+.header h1 {
+  font-size: 50px;
+  color: white;
+  margin-left: 30px;
+  transition: 0.5s;
+}
+
+.header h1:hover {
+  color: red;
+}
+
+.header img {
+  border-radius: 8px;
+  margin-left: 10px;
+}
+
+/* 🔗 Navigation */
+.header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+  margin-right: 40px;
+}
+
+.header nav ul li a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+  font-weight: 500;
+}
+
+.header nav ul li a:hover {
+  color: yellow;
+}
+
+/* 🧱 Main Section */
+main {
+  background: #161b22;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+main h1 {
+  color: #f0f6fc;
+  margin-bottom: 10px;
+}
+
+/* 💡 Aside Block */
+aside {
+  background: #21262d;
+  border-left: 4px solid #58a6ff;
+  padding: 15px;
+  margin: 20px 0;
+  border-radius: 8px;
+  color: white;
+}
+
+aside h1 {
+  font-size: 18px;
+  color: #58a6ff;
+}
+
+/* 📊 Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+caption {
+  font-weight: 600;
+  color: burlywood;
+  font-size: 24px;
+  padding: 15px;
+}
+
+th, td {
+  text-align: center;
+  border: 1px solid #30363d;
+  padding: 15px;
+}
+
+th {
+  background-color: #21262d;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #0d1117;
+}
+
+/* 🖼️ Figure & Caption */
+figure {
+  text-align: center;
+  margin: 20px;
+}
+
+figure img {
+  border-radius: 10px;
+  box-shadow: 0 0 10px red;
+}
+
+figcaption {
+  color: #8b949e;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+/* 📜 Details & Summary */
+details {
+  background-color: #21262d;
+  border: 1px solid #30363d;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+
+summary {
+  font-weight: bold;
+  cursor: pointer;
+  color: #58a6ff;
+  transition: 0.3s;
+}
+
+summary:hover {
+  color: yellow;
+}
+
+/* ✨ Mark Highlight */
+mark {
+  background-color: #ffdb70;
+  color: #000;
+  padding: 0 3px;
+  border-radius: 2px;
+}
+h2 {
+    text-align: center;
+    padding: 50px;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.flex-container div{
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.5s;
+
+}
+
+.flex-container div:hover{
+    color: red;
+}
+
+h3{
+    text-align: center;
+    padding: 50px;
+}
+
+.grid-container{
+    display: grid;
+    gap: 10px;
+}
+
+.grid-container div{
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  color: #8b949e;
+  border-top: 1px solid #30363d;
+  font-size: 14px;
+}
