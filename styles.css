@@ -204,6 +204,17 @@ h3{
     transition: 0.5s;
 }
 
+.button{
+  padding-top: 30;
+}
+
+.button button{
+  background-color: white;
+  padding: 15;
+  font-size: 20;
+  border-radius: 20px;
+}
+
 footer {
   text-align: center;
   margin-top: 20px;
